@@ -32,6 +32,7 @@ app.post('/users', (request, response) => {
   if(findUser) {
     return response.status(400).json({error: 'User with this username already exists'})
   }
+  
   const user = {
     id: uuidv4(),
     name,

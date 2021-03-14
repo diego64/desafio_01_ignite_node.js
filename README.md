@@ -10,6 +10,7 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Rotas da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Rodando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## 📦 Tecnologias
@@ -27,7 +28,7 @@ Aplicação para gerenciar tarefas (em inglês *todos*). Será permitida a
 - Marcar um *todo* como feito;
 - Excluir um *todo*;
 
-Tudo isso para cada usuário em específico (o `username` será passado pelo header). A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
+Tudo isso para cada usuário em específico (o `username` será passado pelo header).
 
 ## 📦 Rotas da aplicação
 
@@ -58,3 +59,11 @@ A rota deve receber, pelo header da requisição, uma propriedade `username` con
 ### DELETE `/todos/:id`
 
 A rota deve receber, pelo header da requisição, uma propriedade `username` contendo o username do usuário e excluir o *todo* que possuir um `id` igual ao `id` presente nos parâmetros da rota.
+
+## 📦 Rodando a aplicação
+
+Após fazer o clone da aplicação, rode o comando `yarn install` ou `npm install` para fazer a isntalação de todas as depedencias da aplicação. 
+
+A aplicação está configurada para rodar na https://localhost:3333, utilize o isominia, postman ou outro programa de faça a leitura de rotas para que voce possa acessar as rotas.
+
+Utilize o comando `yarn test` para que os testes possam ser executados.
