@@ -64,6 +64,6 @@ A rota deve receber, pelo header da requisição, uma propriedade `username` con
 
 Após fazer o clone da aplicação, rode o comando `yarn install` ou `npm install` para fazer a isntalação de todas as depedencias da aplicação. 
 
-A aplicação está configurada para rodar na https://localhost:3333, utilize o isominia, postman ou outro programa de faça a leitura de rotas para que voce possa acessar as rotas.
+A aplicação está configurada para rodar na `https://localhost:3333`, utilize o insomnia, Postman ou outro programa que faça requisições a API para poder realizar as rotas.
 
 Utilize o comando `yarn test` para que os testes possam ser executados.
